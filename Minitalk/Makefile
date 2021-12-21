@@ -10,31 +10,19 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = minitalk.a
-
 CM = cc
 
 FLAG = -Wall -Wextra -Werror
 
 SRC = server.c client.c
 
-
-
 INCLUDE = minitalk.h
-
-all: $(NAME)
 
 $(NAME) :  $(INCLUDE)
 	@cd ft_printf; make;
 	@gcc -W -W -W client.c ft_printf/libftprintf.a -o client
 	@gcc -W -W -W server.c ft_printf/libftprintf.a -o server
 
-
 clean:	
 	@rm -rf server.o client.o ft_printf/*.o
 	@rm -rf server client ft_printf/libftprintf.a
-
-fclean: clean
-	@rm -rf $(NAME)
-
-re: fclean all
