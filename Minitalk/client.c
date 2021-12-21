@@ -29,7 +29,6 @@ int	ft_atoi(char *str)
 {
 	int	i;
 	int	result;
-	int	sing;
 
 	i = 0;
 	result = 0;
