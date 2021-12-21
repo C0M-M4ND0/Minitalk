@@ -22,7 +22,7 @@ $(CLIENT) :
 	@cd ft_printf; make;
 	@$(CM) $(FLAG) client.c ft_printf/libftprintf.a -o client
 	
-$(SERVER) : $(PRINTF)
+$(SERVER) :
 	@$(CM) $(FLAG) server.c ft_printf/libftprintf.a -o server
 
 clean:	
