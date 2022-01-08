@@ -51,7 +51,7 @@ void	ft_send(int pid)
 	int	i;
 
 	i = 0;
-	ft_printf("SEAND !\n");
+	ft_printf("SEND !\n");
 	while (i < 8)
 	{
 		kill(pid, SIGUSR2);
