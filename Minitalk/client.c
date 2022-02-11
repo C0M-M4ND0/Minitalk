@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   client.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oabdelha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: oabdelha <oabdelha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/12 16:04:33 by oabdelha          #+#    #+#             */
-/*   Updated: 2021/12/21 09:49:20 by oabdelha         ###   ########.fr       */
+/*   Updated: 2022/02/11 12:23:20 by oabdelha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,12 +67,12 @@ int	main(int ac, char **av)
 	int	e;
 
 	i = 0;
-	e = 0;
-	(void) ac;
+	if (ac <= 1)
+		return (0);
 	pid = ft_atoi(av[1]);
 	e = kill(pid, 0);
-	if (e == -1)
-		ft_printf("Bad pid \n");
+	if (e == -1 || pid <= 0)
+		return (ft_printf("Bad pid \n"), 0);
 	signal(SIGUSR1, handler);
 	while (av[2][i])
 	{
@@ -81,8 +81,6 @@ int	main(int ac, char **av)
 		usleep(2);
 	}
 	if (av[2][i] == '\0' && e != -1)
-	{
 		ft_send(pid);
-	}
 	return (0);
 }
