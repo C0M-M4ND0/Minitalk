@@ -6,7 +6,7 @@
 /*   By: oabdelha <oabdelha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 14:57:01 by oabdelha          #+#    #+#             */
-/*   Updated: 2022/02/11 12:19:26 by oabdelha         ###   ########.fr       */
+/*   Updated: 2022/02/11 12:50:42 by oabdelha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int	main(void)
 {	
 	struct sigaction	new;
 
-	ft_printf("The PID of this Process is  : %d\n", getpid());
+	ft_printf("The PID of this Process is : %d\n", getpid());
 	new.sa_sigaction = ft_handler;
 	new.sa_flags = SA_SIGINFO;
 	sigemptyset(&new.sa_mask);
