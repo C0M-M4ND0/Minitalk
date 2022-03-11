@@ -27,4 +27,4 @@ For client :
 
 ##### Don't forget to report to me the Errors in the code and your suggestions 😉
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:omarabdelhadi1337@gmail.com)]
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sooa9918@dgu.ac.kr)]
+![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sooa9918@dgu.ac.kr)
