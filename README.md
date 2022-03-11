@@ -26,4 +26,4 @@ For client :
 ### ``Note : The Bonus Part is added to Mandatory Part``
 
 ##### Don't forget to report to me the Errors in the code and your suggestions 😉
-[sendemail]smtpUser = omarabdelhadi1337@gmail.com
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:omarabdelhadi1337@gmail.com)]
