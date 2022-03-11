@@ -26,9 +26,4 @@ For client :
 ### ``Note : The Bonus Part is added to Mandatory Part``
 
 ##### Don't forget to report to me the Errors in the code and your suggestions 😉
-[sendemail]
-  confirm = auto
-  smtpServer = smtp.gmail.com
-  smtpServerPort = 587
-  smtpEncryption = tls
-  smtpUser = omarabdelhadi1337@gmail.com
+[sendemail]smtpUser = omarabdelhadi1337@gmail.com
