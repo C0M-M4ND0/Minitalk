@@ -23,4 +23,7 @@ For client :
 ./client <pid> <message>
 ```
 
-# ``Note : The Bonus Part is added to Mandatory Part``
+### ``Note : The Bonus Part is added to Mandatory Part``
+
+# Don't forget to report to me the Errors in the code and your suggestions 😉
+[Gmail](omarabdelhadi1337@gmail.com)
