@@ -10,6 +10,10 @@ Bonus : 25/25
 ### How to use it
 Using ``make`` will create the ``server`` and ``client`` executable.
 
+```
+make
+```
+
 Simply run it with :
 
 For server :
@@ -20,7 +24,7 @@ For server :
 For client :
 
 ```
-./client <pid> <message>
+./client <server pid> <message>
 ```
 
 #### ``Note : The Bonus Part is added to Mandatory Part``
